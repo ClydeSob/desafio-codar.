@@ -1,0 +1,168 @@
+body,h1,h2,h3,p,ul {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Roboto,'Open Sans', sans-serif;
+}
+
+
+/*Menu*/
+.menu{
+    background:white;
+    padding: 2px  ;
+    margin: 15px 0px;
+   
+}
+.menu-container{
+    max-width: 1100px;
+    margin: 15px 0px ;
+    
+}
+.menu-container::after,.menu-container::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+a.menu-logo{
+    display: block;
+    float:left;
+   
+}
+.menu-nav{
+    float: right;
+    margin: 15px 1px;
+}
+.menu-nav li{
+    display: inline-block;
+}
+.menu-nav a{
+    display: block;
+    padding: 30px  ;
+    text-decoration: none;
+    color: black;
+    font-size:1.5em;
+   
+}
+.inicio{
+    padding: 60px 0;
+}
+.inicio-container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.inicio-container::after,.inicio-container::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+.center{
+    width: 480px;
+    float: left;
+    padding: 25px 35px;
+    /*padding-left:35px;*/
+    margin:0 auto;
+}
+
+.center img{
+    width: 100%;
+    display: block;
+    max-width: 100;
+   
+}
+.center h2{
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.257em;
+}
+.center h1{
+    color:#D6000d;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.botao{
+    font-family: Roboto, sans-serif;
+    background-color: #D6000d;
+    border-radius: 10px 10px;
+    text-align: center ;
+    padding: 12px ;
+    margin: 12px; 
+    
+}
+.botao a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.87em;
+    font-weight: bold;
+    
+}
+.botao-2 a {
+    background-color: #D6000d; 
+    text-decoration: none;
+    color: white;
+    font-size: 1.87em;
+    font-weight: bold;
+    float:right;
+    padding: 12px ;
+    margin: 16px; 
+    border-radius: 10px 10px; 
+    display: flex;
+}
+.menu-nav .botao{
+    text-decoration: none;
+    color: white;
+    font-size: 1.87em;
+    padding:12px 50px;
+    font-weight: bold;
+}
+.servicos-container{
+    margin: 0 auto;
+}
+.center ul{ /*alterar tamanho do ícone*/
+    padding:100px;
+    list-style-image:url("./assets/verificado.svg") ;
+    font-size:1.6em;
+    /*padding-left: 115px;*/
+}
+.celular{
+    padding: 12px ;
+    /*margin: 12px;*/
+    border-radius: 10px 10px;
+    background: #dcdcdc;
+    border: solid 0px gray;
+    font-size: 1.5em;
+    font-weight:normal;
+    float: left;
+}
+
+
+/*serviços*/
+
+.contato-cliente{
+    display:block;
+    float:left;
+    padding-left:115px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-around;
+    margin:0 auto ;
+}
+.contato-cliente p, .contato-cliente a{
+    font-weight: bold;
+    font-size: 1.4em;
+
+}.comentario{
+    display: flex;
+    float: left;
+    background: #dcdcdc;
+    border: solid 0px gray;
+    border-radius: 10px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    display: block;
+    float:left;
+}
